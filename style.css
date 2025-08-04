@@ -1,9 +1,15 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
 .hero-image {
-    background-image: url("hero image.jpg");
+    background-image: url("real\ hero\ image.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,31 +24,92 @@
     background-color: #323232;
     padding: 10px 20px;
     border-radius: 20px;
-    font-size: 36px;
+    font-size: 60px;
     margin-bottom: 10px;
 }
 
 .subheading {
-    background-color: rgb(255, 115, 115);
+    background-color: #f96262;
     color: white;
-    padding: 8px 16px;
+    padding: 8px 20px;
     border-radius: 15px;
     margin-bottom: 20px;
+    margin-top: 3px;
     display: inline-block;
-    font-size: 18px;
+    font-size: 30px;
 }
 
 .buttons {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 70px;
+}
+
+.btn:hover {
+  transform: scale(1.1  );
 }
 
 .btn {
     background-color: #323232;
     color: white;
     padding: 10px 20px;
-    border-radius: 20px;
-    font-size: 16px;
+    border-radius: 10px;
+    font-size: 25px;
     cursor: pointer;
 }
+
+.guides-section {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px 20px;
+    background-color: #323232;
+  }
+
+  .guide-card h2{
+    font-size: 40px;
+  }
+
+  .guide-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .guide-card {
+    background-color: #ef4444;
+    color: white;
+    border-radius: 10px;
+    padding: 40px;
+    width: 600px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    position: relative; 
+    text-align: left;
+  }
+  
+  .guide-card:hover {   
+    transform: scale(1.03);
+  }
+  
+  .guide-icon {
+    width: 150px;  
+    position: absolute;
+    top: 15px;
+    right: 80px;
+  }
+  
+  .guide-card h3 {
+    font-size: 40px;
+    margin: 10px; 
+  }
+
+  .guides-section h2 {
+    margin-top: 10px;
+    font-size: 45px;
+    color: white;
+  }
+  
+  .guide-card p {
+    font-size: 25px;
+    line-height: 1.5;
+  }
