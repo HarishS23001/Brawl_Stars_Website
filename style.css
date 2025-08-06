@@ -9,7 +9,7 @@ html, body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
+    height: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,7 +46,7 @@ html, body {
 }
 
 .btn:hover {
-  transform: scale(1.1  );
+  transform: scale(1.1);
 }
 
 .btn {
@@ -56,12 +56,13 @@ html, body {
     border-radius: 10px;
     font-size: 25px;
     cursor: pointer;
+    transition: transform 0.3s
 }
 
 .guides-section {
     text-align: center;
     font-family: Arial, sans-serif;
-    padding: 20px 20px;
+    padding: 40px 40px;
     background-color: #323232;
   }
 
@@ -85,6 +86,7 @@ html, body {
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
     position: relative; 
     text-align: left;
+    transition: transform 0.3s
   }
   
   .guide-card:hover {   
@@ -113,3 +115,39 @@ html, body {
     font-size: 25px;
     line-height: 1.5;
   }
+
+  .skill-section {
+    background-color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 40px 20px;
+  }
+  
+  .skill-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .skill-card {
+    background-color: #444;
+    color: white;
+    border-radius: 30px;
+    padding: 50px 200px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    text-align: center;
+  }
+  
+  .skill-card h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  
+  .skill-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
