@@ -161,3 +161,104 @@ html, body {
     display: block;
   }
   
+ /* Daily Tip Box inside dark grey background */
+.daily-tip {
+  background-color: #e0e0e0; /* light grey box */
+  color: black;
+  padding: 40px;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 0 auto; /* center inside section */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Daily Tip heading */
+.daily-tip h2 {
+  background-color: #ef4444;
+  color: white;
+  font-size: 36px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+/* Tip content */
+.tip-content {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.tip-content p {
+  flex: 1;
+  font-size: 24px;
+  line-height: 1.8;
+}
+.tip-icon {
+  width: 250px;
+  height: auto;
+}
+
+/* Daily Brawler Box inside white background */
+.daily-brawler {
+  background-color: #e0e0e0; /* light grey box */
+  color: black;
+  padding: 40px;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 0 auto; /* center inside section */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Daily Brawler heading */
+.daily-brawler h2 {
+  background-color: #ef4444;
+  color: white;
+  font-size: 36px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+/* Brawler content */
+.brawler-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+.brawler-image {
+  width: 250px;
+}
+.brawler-info h3 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+.brawler-info p {
+  font-size: 22px;
+  line-height: 1.8;
+}
+
+/* Wrapper behind Daily Tip */
+.daily-tip-wrapper {
+  background-color: #323232; /* dark grey behind tip box */
+  padding: 60px 0;           /* vertical spacing */
+}
+
+/* Wrapper behind Daily Brawler */
+.daily-brawler-wrapper {
+  background-color: #ffffff; /* white behind brawler box */
+  padding: 60px 0;           /* vertical spacing */
+}
+
+/* Boxes themselves */
+.daily-tip,
+.daily-brawler {
+  background-color: #e0e0e0; /* light grey boxes */
+  color: black;
+  padding: 40px;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 0 auto;            /* center inside wrapper */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
