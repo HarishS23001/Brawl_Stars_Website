@@ -191,11 +191,12 @@ html, body {
 }
 .tip-content p {
   flex: 1;
-  font-size: 24px;
+  font-size: 27px;
   line-height: 1.8;
+  color: white;
 }
 .tip-icon {
-  width: 250px;
+  width: 300px;
   height: auto;
 }
 
@@ -218,7 +219,7 @@ html, body {
   padding: 12px 24px;
   border-radius: 8px;
   display: inline-block;
-  margin-bottom: 30px;
+  margin-bottom: 30px;  
 }
 
 /* Brawler content */
@@ -228,15 +229,17 @@ html, body {
   gap: 40px;
 }
 .brawler-image {
-  width: 250px;
+  width: 400px;
 }
 .brawler-info h3 {
   font-size: 28px;
   margin-bottom: 15px;
+  color: white;
 }
 .brawler-info p {
-  font-size: 22px;
+  font-size: 27px;
   line-height: 1.8;
+  color: white;
 }
 
 /* Wrapper behind Daily Tip */
@@ -254,11 +257,11 @@ html, body {
 /* Boxes themselves */
 .daily-tip,
 .daily-brawler {
-  background-color: #e0e0e0; /* light grey boxes */
+  background-color: #686767; /* light grey boxes */
   color: black;
   padding: 40px;
   border-radius: 12px;
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;            /* center inside wrapper */
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
