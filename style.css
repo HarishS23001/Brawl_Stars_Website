@@ -265,3 +265,60 @@ html, body {
   margin: 0 auto;            /* center inside wrapper */
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
+
+/* Beginner Page Styles */
+.beginner-page {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.beginner-section {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.black-section {
+  background-color: #323232;
+  color: white;
+}
+
+.white-section {
+  background-color: #ffffff;
+  color: black;
+}
+
+.beginner-section h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.beginner-section p, 
+.beginner-section li {
+  font-size: 22px;
+  line-height: 1.8;
+  max-width: 900px;
+  margin: 10px auto;
+  text-align: left;
+}
+
+/* Footer Back Button */
+.beginner-footer {
+  text-align: center;
+  padding: 40px;
+  background-color: #323232;
+}
+
+.beginner-footer .btn {
+  background-color: #ef4444;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 12px;
+  font-size: 22px;
+  text-decoration: none;
+  transition: transform 0.3s;
+}
+
+.beginner-footer .btn:hover {
+  transform: scale(1.1);
+}
